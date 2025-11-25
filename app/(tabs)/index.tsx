@@ -65,7 +65,15 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <Link href="/stack/sample">
+          <ThemedText type="subtitle">Step 3: Try the Stack Navigator</ThemedText>
+        </Link>
+        <ThemedText>
+          Tap above to navigate to the sample screen in the stack navigator.
+        </ThemedText>
+      </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 4: Get a fresh start</ThemedText>
         <ThemedText>
           {`When you're ready, run `}
           <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
