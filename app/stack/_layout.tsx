@@ -7,7 +7,6 @@ export default function StackLayout() {
         name="sample"
         options={{
           title: "Sample Screen",
-          headerShown: true,
         }}
       />
     </Stack>
